@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    h1 {
+      @apply lg:text-[3.5rem] md:text-[2.75rem] text-[2rem] font-bold tracking-wider leading-[50px]
+    }
+  
+    h2 {
+      @apply text-[2.75rem] font-bold tracking-[0.03em] leading-10
+    }
+  
+    h3 {
+      @apply lg:text-3xl md:text-[1.125rem] text-[1.05rem] leading-[55px] tracking-[0.03em] font-bold
+    }
+  
+    h4 {
+      @apply text-[1.125rem] leading-5 tracking-[0.03em] font-semibold
+    }
+  
+    h5 {
+      @apply text-[1.05rem] leading-6 tracking-[0.03em] font-semibold
+    }
+}
